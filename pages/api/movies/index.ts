@@ -1,3 +1,5 @@
+// mengambil semua data film dari database dengan prisma
+
 import { NextApiRequest, NextApiResponse } from "next";
 import prismadb from '@/libs/prismadb';
 import serverAuth from "@/libs/serverAuth";

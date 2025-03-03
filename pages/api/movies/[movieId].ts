@@ -1,3 +1,5 @@
+// mengambil data film berdasarkan ID dari DB
+
 import { NextApiRequest, NextApiResponse } from "next";
 import prismadb from '@/libs/prismadb';
 import serverAuth from "@/libs/serverAuth";
