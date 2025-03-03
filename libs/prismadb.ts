@@ -1,3 +1,5 @@
+// membuat dan mengelola instance Prisma Client
+
 import { PrismaClient } from '@prisma/client'
 
 const client = global.prismadb || new PrismaClient()
