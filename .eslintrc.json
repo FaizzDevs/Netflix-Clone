@@ -1,3 +1,5 @@
+// konfigurasi ESLint
+
 {
   "extends": "next/core-web-vitals",
   "rules": {

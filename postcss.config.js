@@ -1,3 +1,5 @@
+// konfirgurasi postcss
+
 module.exports = {
   plugins: {
     tailwindcss: {},

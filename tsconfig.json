@@ -1,3 +1,5 @@
+// konfigurasi typescript
+
 {
   "compilerOptions": {
     "target": "es5",

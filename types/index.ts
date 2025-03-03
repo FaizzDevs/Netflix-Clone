@@ -1,3 +1,5 @@
+// struktur data movie
+
 export interface MovieInterface {
   id: string;
   title: string;
