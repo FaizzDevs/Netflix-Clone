@@ -1,3 +1,5 @@
+// mengambil data user yang login
+
 import { NextApiRequest, NextApiResponse } from "next";
 import serverAuth from "@/libs/serverAuth";
 
