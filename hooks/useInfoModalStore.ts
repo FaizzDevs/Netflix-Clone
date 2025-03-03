@@ -1,3 +1,5 @@
+// mengelola informasi movie
+
 import { create } from 'zustand';
 
 export interface ModalStoreInterface {

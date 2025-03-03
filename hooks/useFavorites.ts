@@ -1,3 +1,5 @@
+// Mengambil data fovorites movie
+
 import useSwr from 'swr'
 import fetcher from '@/libs/fetcher';
 
@@ -7,12 +9,7 @@ const useMovies = () => {
     revalidateOnFocus: false,
     revalidateOnReconnect: false,
   });
-  return {
-    data,
-    error,
-    isLoading,
-    mutate
-  }
+  return { data, error, isLoading, mutate }
 };
 
 export default useMovies;

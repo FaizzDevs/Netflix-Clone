@@ -1,3 +1,5 @@
+// mengambil movie berdasarkan id
+
 import useSwr from 'swr'
 import fetcher from '@/libs/fetcher';
 
@@ -7,11 +9,7 @@ const useMovie = (id?: string) => {
     revalidateOnFocus: false,
     revalidateOnReconnect: false,
   });
-  return {
-    data,
-    error,
-    isLoading
-  }
+  return { data, error, isLoading }
 };
 
 export default useMovie;

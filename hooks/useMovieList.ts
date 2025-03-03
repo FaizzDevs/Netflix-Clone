@@ -1,3 +1,5 @@
+// mengambil data movie berupa list movie
+
 import useSwr from 'swr'
 import fetcher from '@/libs/fetcher';
 
@@ -7,11 +9,7 @@ const useMovies = () => {
     revalidateOnFocus: false,
     revalidateOnReconnect: false,
   });
-  return {
-    data,
-    error,
-    isLoading
-  }
+  return { data, error, isLoading }
 };
 
 export default useMovies;
