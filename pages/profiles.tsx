@@ -1,15 +1,16 @@
+// tampilan menu user
+
 import { NextPageContext } from "next";
 import { getSession, useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import { useCallback } from "react";
-
 import useCurrentUser from "@/hooks/useCurrentUser";
 
 const images = [
-  '/images/default-blue.png',
-  '/images/default-red.png',
-  '/images/default-slate.png',
-  '/images/default-green.png'
+  '/images/profile-blue.png',
+  '/images/profile-red.png',
+  '/images/profile-slate.png',
+  '/images/profile-green.png'
 ]
 
 interface UserCardProps {
